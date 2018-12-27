@@ -1,16 +1,15 @@
 //somma cifre di un numero 
 #include <stdio.h>
 int main () {
-int Numero,Cifra1,Cifra2,Cifra3;
+int numero,cifra1,cifra2,cifra3;
 printf("inserisci il numero di 3 cifre\n");
-scanf("%d",&Numero);
-if (Numero < 0 || Numero > 999) printf ("Sai leggere?");
-Cifra3=Numero%10;
-Numero/=10;
-Cifra2=Numero%10;
-Numero/=10;
-Cifra1=Numero%10;
-Numero/=10;
-printf("La somma delle cifre e' %d",Cifra1+Cifra2+Cifra3);
+scanf("%d",&numero);
+if (numero < 0 || numero > 999) printf ("Sai leggere?");
+cifra3=numero%10;
+numero/=10;
+cifra2=numero%10;
+numero/=10;
+cifra1=numero%10;
+printf("La somma delle cifre e' %d",cifra1+cifra2+cifra3);
 return 0;
 }
