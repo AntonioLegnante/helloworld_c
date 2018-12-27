@@ -2,13 +2,13 @@
 #include <stdio.h>
 int main () {
 int a,b;
-int Massimo=0;
+int massimo=0;
 printf("inserisci un valore\n");
 scanf("%d",&a);
 printf("inserisci un valore\n");
 scanf("%d",&b);
-Massimo=a;
-if (b>Massimo) Massimo=b;
-printf ("Il maggiore tra i 2 valori e' %d\n",Massimo);
+massimo=a;
+if (b>massimo) massimo=b;
+printf ("Il maggiore tra i 2 valori e' %d\n",massimo);
 return 0;
 }
